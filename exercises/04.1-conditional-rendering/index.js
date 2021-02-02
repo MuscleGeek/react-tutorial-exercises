@@ -3,7 +3,8 @@ import ReactDOM from "react-dom";
 import PropTypes from "prop-types";
 
 const Alert = props => {
-	//your component here
+    //your component here
+    if(props.color )
 
 };
 Alert.propTypes = {
